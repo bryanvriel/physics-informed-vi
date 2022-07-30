@@ -4,4 +4,4 @@ This repository contains example Python scripts and notebooks that implement the
 
 ## Prerequisites
 
-All neural network and variational Gaussian Processes are implemented using TensorFlow v2.7+. A few segments of the training scripts use data objects from the `pgan` package (https://github.com/bryanvriel/pgan/tree/lite-tf2) and training loops from the `hdflows` package (https://github.com/bryanvriel/high_dimensional_flows/tree/pgan). Snapshots of both packages are included in the `external` folder.
+All neural network and variational Gaussian Processes are implemented using TensorFlow v2.7+. A few segments of the training scripts use data objects from the `pgan` package (https://github.com/bryanvriel/pgan/tree/lite-tf2) and training loops from the `hdflows` package (https://github.com/bryanvriel/high_dimensional_flows/tree/pgan). Snapshots of both packages as used in the manuscript are included in the `external` folder.

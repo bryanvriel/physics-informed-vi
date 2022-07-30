@@ -1,0 +1,8 @@
+
+__pycache__
+build
+*egg-info
+*.swp
+*.pkl
+*.csv
+*.tsv
