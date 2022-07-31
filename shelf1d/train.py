@@ -116,7 +116,10 @@ def main(pars):
 
 
 def _forward_model(mean_net, vgp, n_exp, x, grid, weights, Tb_std):
-
+    """
+    Computes basal drag residual negative log-likelihood. Uses the 1D SSA momentum balance
+    for a laterally-confined ice shelf with a rectangular cross-section.
+    """
     # Physical constants
     rho_ice = tf.constant(917.0, dtype=DTYPE)
     rho_water = tf.constant(1024.0, dtype=DTYPE)

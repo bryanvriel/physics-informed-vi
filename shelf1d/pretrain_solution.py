@@ -38,7 +38,6 @@ def main(pars):
 
         # Unpack batch
         batch_surface, batch_physics = batch
-        Nb = tf.cast(tf.shape(batch_physics.x)[0], dtype=DTYPE)
 
         # Predict normalized outputs
         up, hp = mean_net(batch_surface.x, inverse_norm=False)
